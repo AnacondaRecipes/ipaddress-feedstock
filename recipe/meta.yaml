@@ -36,6 +36,7 @@ about:
   description: |
     Python 3.3's ipadress for older Python versions
   doc_url: https://pypi.python.org/pypi/ipaddress
+  dev_url: https://github.com/phihag/ipaddress
   doc_source_url: https://github.com/phihag/ipaddress/blob/master/README.md
 
 extra:

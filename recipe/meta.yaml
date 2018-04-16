@@ -11,13 +11,14 @@ source:
 build:
   number: 0
   script: python -m pip install --no-deps --ignore-installed .
+  skip: true  # [py>=33]
 
 requirements:
   host:
-    - python >=3.3
+    - python
     - pip
   run:
-    - python >=3.3
+    - python
 
 test:
   imports:
